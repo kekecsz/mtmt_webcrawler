@@ -1,9 +1,10 @@
 # Install and load required packages
 library(rvest)
 
+# Directory where with mtmt ids
+input_directory <- "..."
 # Directory to save txt files
-input_directory <- "C:\\Users\\kekec\\Downloads\\input_folder\\"
-output_directory <- "C:\\Users\\kekec\\Downloads\\webrawlresults\\"
+output_directory <- "..."
 
 namemtmt = read.csv2(paste0(input_directory, "mtmt_ids.csv"))
 pre_url = "https://m2.mtmt.hu/api/publication?cond=authors%3Beq%3B"
