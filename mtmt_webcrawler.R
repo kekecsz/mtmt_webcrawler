@@ -1,6 +1,3 @@
-# Install and load required packages
-library(rvest)
-
 # Directory with .csv with mtmt ids
 input_directory <- "..."
 # Directory to save txt files
